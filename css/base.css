@@ -1,0 +1,29 @@
+@import url(../style.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+:root {
+    --gradiente1: linear-gradient(90deg, rgba(58,240,227,1)  15%, rgba(118,0,189,1) 100%);
+    --shadow1:inset 5px  5px 2px  rgba(58,240,227,0.800),inset -5px -5px 2px rgba(58,240,227,0.800),inset 10px 10px 3px  rgba(118,0,189,0.400),inset -10px -10px 3px  rgba(118,0,189,0.400);
+    --shadow2:inset 5px  5px 10px rgba(58,240,227,0.800),inset -5px -5px 10px rgba(58,240,227,0.800),inset 10px 10px 25px rgba(118,0,189,0.400),inset -10px -10px 25px  rgba(118,0,189,0.400);
+    --color1: #181818; 
+}
+
+@keyframes degradado {
+    0% {
+      background-position: 0% 58%;
+}
+    50% {
+      background-position: 58% 0%;
+}
+    100% {
+    background-position: 0% 58%;
+}
+}
