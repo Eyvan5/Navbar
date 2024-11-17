@@ -3,7 +3,7 @@ body {
     font-family: Nunito,sans-serif;
 }
 
-.contenedor-1 {
+main {
     height: 100vh;
     width: 100vw;
     padding-top: 14vh;
@@ -14,44 +14,88 @@ body {
     justify-content: space-evenly;
 }
 
-.contenedor-2 {
+.hero {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 80%;
+    background-color: var(--color1);
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 2;
+
+}
+.borde {
+    position: absolute;
+    background: var(--gradiente1);
+    height: 71%;
+    width: 82%;
+    border-radius: 20px;  
+    background-size: 200% 200%; 
+    animation: degradado 1s ease infinite; 
+}
+.hero-content {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 40px;
-    background-color: var(--color1);
+    justify-content: space-between;
+    width: 30rem;
+    height: 300px;
+    overflow: hidden;
+}
+.hero-links {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 190px;
+    border:3px solid var(--text-color);
+    border-radius: 30px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.hero-links:hover {
+    transition: 0.5s;
+    box-shadow: var(--shadow2);
+}
+.hero-link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.hero-image {
+    overflow: hidden;
     border-radius: 15px;
-    height: 50%;
-    width: 40%;
-    box-shadow: var(--shadow1);
+    height: 300px;
+
+}
+.h-img {
+    border-radius: 15px;
+    height: 300px;
+    transition: 0.5s;
+}
+.h-img:hover {
+    transform: scale(1.10);
+    transition: 0.5s;
 }
     
 h1 {
     background: var(--gradiente1);
     font-weight: 800;
-    font-size: 70px;
+    font-size: 60px;
     background-size: 200% 200%;
     animation: degradado 3s ease infinite;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding: 0px;
 }
 
 p {
    font-size: 17px;
-   color: rgb(174, 231, 227);
-}
-
-.circulo {
-   height: 270px;
-   width: 270px;
-   background: var(--color1);
-   border-radius: 270px;
-   box-shadow: var(--shadow2);
-   transition: 1s;
-   overflow: hidden;
-}
-
-.circulo:hover {
-    transform: scale(1.25);
-    transition: 1s;
+   color: var(--text-color);
+   padding-bottom: 10px;
 }
