@@ -150,6 +150,7 @@ p {
     }
     .hero {
         height: 130vh;
+        width: 90%;
     }
     .hero-nav {
         display: flex;
