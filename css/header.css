@@ -29,7 +29,7 @@ header{
   -webkit-text-fill-color: transparent;
 }
 .logo1 {
-  height: 13vh;
+  height: 10vh;
   margin-left: 20px;
   background: var(--gradiente1);
   animation: degradado 3s ease infinite;
@@ -60,4 +60,26 @@ header{
   background: var(--gradiente1);
   background-size: 200% 200%;  
   animation: degradado 1s ease infinite;
+}
+.menu-png {
+  height: 11vh;
+  margin-right: 20px;
+  background: var(--gradiente1);
+  animation: degradado 3s ease infinite;
+  background-size: 200% 200%;
+  transition: 1s ;
+}
+.nav-menu, #check {
+  display: none;
+}
+#check {
+  display: none;
+}
+@media screen and (max-width: 880px) {
+  .h-ul {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+  }
 }
