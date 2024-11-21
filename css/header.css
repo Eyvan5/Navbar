@@ -32,7 +32,6 @@ header{
   height: 10vh;
   margin-left: 20px;
   background: var(--gradiente1);
-  box-shadow: var(--shadow3);
   animation: degradado 3s ease infinite;
   background-size: 200% 200%;
   transition: 1s ;
@@ -63,10 +62,10 @@ header{
   animation: degradado 1s ease infinite;
 }
 .menu-png {
-  height: 11vh;
-  margin-right: 20px;
+  height: 10vh;
+  margin-right: 30px;
+  margin-top: 6px;
   background: var(--gradiente1);
-  box-shadow: var(--shadow3);
   animation: degradado 3s ease infinite;
   background-size: 200% 200%;
   transition: 1s ;
