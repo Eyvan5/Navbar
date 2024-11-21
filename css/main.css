@@ -80,7 +80,7 @@ main {
     overflow: hidden;
     border-radius: 15px;
     height: 300px;
-    margin: 20px;
+    margin: 10px;
 
 }
 .h-img {
@@ -91,6 +91,9 @@ main {
 .h-img:hover {
     transform: scale(1.10);
     transition: 0.5s;
+}
+.hero-image {
+    margin: 30px;
 }
     
 h1 {
@@ -117,7 +120,7 @@ p {
     } 
     .hero {
         flex-direction: column;
-        height: 110vh;
+        height: 111vh;
     }
     .card {
         flex-direction: column;
@@ -133,7 +136,7 @@ p {
 }
 @media screen and (max-width: 600px) {
     main {
-        height: 160vh;
+        height: 150vh;
     } 
     .hero-content {
         height: 480px;
@@ -149,8 +152,20 @@ p {
         margin: auto;
     }
     .hero {
-        height: 130vh;
-        width: 90%;
+        height: 120vh;
+        width: 91%;
+    }
+    .card {
+        width: 97.5%;
+        justify-content: space-evenly;
+    }
+    .hero-image {
+        height: 270px;
+        width: 270px;
+    }
+    .h-img {
+        height: 270px;
+        width: 270px;
     }
     .hero-nav {
         display: flex;

@@ -13,6 +13,7 @@
     --gradiente1: linear-gradient(90deg, rgba(58,240,227,1)  15%, rgba(118,0,189,1) 100%);
     --shadow1:inset 5px  5px 2px  rgba(58,240,227,0.800),inset -5px -5px 2px rgba(58,240,227,0.800),inset 10px 10px 3px  rgba(118,0,189,0.400),inset -10px -10px 3px  rgba(118,0,189,0.400);
     --shadow2:inset 5px  5px 10px rgba(58,240,227,0.800),inset -5px -5px 10px rgba(58,240,227,0.800),inset 10px 10px 25px rgba(118,0,189,0.400),inset -10px -10px 25px  rgba(118,0,189,0.400);
+    --shadow3:inset 3px 3px 1px #181818,inset -3px -3px 1px #181818;
     --color1: #181818;
     --color2: rgba(58,240,227,1);
     --text-color: rgb(174, 231, 227);
