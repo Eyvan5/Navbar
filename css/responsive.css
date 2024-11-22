@@ -49,7 +49,7 @@
     } 
     .hero-content {
         gap: 20px;
-        width: 250px;
+        width: 300px;
     }
     .hero-p {
         padding: 0px; 
@@ -82,6 +82,7 @@
     .hero-image {
         height: 270px;
         width: 270px;
+        margin-top: 12px;
     }
     .h-img {
         height: 270px;
