@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    height: 105vh;
+    height: 240vh;
     width: 100vw;
     padding-top: 14vh;
     background-image: url(../img/fondo.jpg);
@@ -101,12 +101,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 20vh;
+    height: 60vh;
     width: 99%;
-    margin: 0px 5px 5px 5px;
     padding: 20px;
     background-color: var(--color1);
-    border-radius: 0px 0px 20px 20px;
     overflow: hidden;
 }
 .card2-p {
@@ -129,11 +127,71 @@ p {
    padding-bottom: 10px;
    max-width: 410px;
 }
-
-input[type="checkbox"]:checked ~ .card2 { 
-    display: flex;
-    background-color: brown;
-}
 #check2 {
     display: none;
+}
+.Logos-svg {
+    height: 70px;
+}
+.plataformas {
+    display: flex;
+    width: 25%;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 20vh;
+    background-color: var(--color1);
+}
+h3 {
+    font-size: 30px;
+    color: rgba(58,240,227);
+}
+.title2 {
+    background: var(--gradiente1);
+    font-weight: 700;
+    font-size: 40px;
+    background-size: 200% 200%;
+    animation: degradado 3s ease infinite;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card3 {
+    display: flex;
+    height: 40vh;
+    width: 99%;
+    margin: 0px 5px 5px 5px;
+    padding: 20px;
+    background-color: var(--color1);
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+}
+.h-logo {
+    height: 200px;
+}
+.ul-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70vw;
+    list-style: none;
+    gap: 40px;
+}
+.redes-contacto {
+    list-style: none;
+}
+.redes-logos {
+    height: 70px;
+}
+.li-contacto {
+    display: flex;
+    width: 20vw;
+    height: 10vh;
+    color: var(--color2);
 }

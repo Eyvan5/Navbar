@@ -1,5 +1,27 @@
 footer {
-  height: 40vh;
+  height: 50vh;
   width: 100vw;
+  display: flex;
   background-color: var(--color1);
+}
+.footer-logo {
+  height: 90px;
+  padding-top: 40px;
+}
+.logo-h {
+  height: 90px;
+  width: 270px;
+}
+.logo-y {
+  margin-top: 10px;
+  height: 90px;
+}
+.box-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 100%;
+  width: 100%;
 }
